@@ -9,6 +9,13 @@ end_index = xytech.index("Notes:")
 
 xytech = xytech[start_index:end_index]
 
+hash_map = {}
+
+for index, item in enumerate(xytech):
+	hash_map[item[0:20]] = item[21:]
+print(hash_map)
+
+
 baselight = baselight.read()
 
 baselight = baselight.split()
