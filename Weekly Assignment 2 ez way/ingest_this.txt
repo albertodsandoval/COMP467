@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 This 1 python 2 script 3​
 
 Is 4 completely 5 amazing 6​
 
-=======
-This 1 python 2 script 3​
-
-Is 4 completely 5 amazing 6​
-
->>>>>>> master
 Like 7 professor 8 chaja 9
