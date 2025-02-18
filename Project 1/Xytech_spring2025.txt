@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Xytech Workorder 1169
 
 Producer: Daddy Zaddy
@@ -16,4 +17,24 @@ Location:
 /hpsans17/production/dogman/reel1/partC/1920x1080
 
 Notes:
+=======
+Xytech Workorder 1169
+
+Producer: Daddy Zaddy
+Operator: Captain America
+Job: Dirtfixing
+
+
+Location:
+/hpsans13/production/dogman/reel1/partA/1920x1080
+/hpsans12/production/dogman/reel1/VFX/Hydraulx
+/hpsans13/production/dogman/reel1/VFX/Framestore
+/hpsans14/production/dogman/reel1/VFX/AnimalLogic
+/hpsans13/production/dogman/reel1/partB/1920x1080
+/hpsans15/production/dogman/pickups/shot_1ab/1920x1080
+/hpsans11/production/dogman/pickups/shot_2b/1920x1080
+/hpsans17/production/dogman/reel1/partC/1920x1080
+
+Notes:
+>>>>>>> master
 Please clean files noted per Colorist Galactus
