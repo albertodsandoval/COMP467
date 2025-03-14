@@ -1,3 +1,10 @@
 First 3 how about 6 this line 11
+<<<<<<< HEAD
 Second this is 2 awesome 7 stuff like 1 totally bro 33
 Third coding is super 4 cool bruh 8 I 5 just 6 love 13 it 19
+=======
+
+Second this is 2 awesome 7 stuff like 1 totally bro 33
+
+Third coding is super 4 cool bruh 8 I 5 just 6 love 13 it 19 
+>>>>>>> cdf88ee (project 2 complete)

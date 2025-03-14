@@ -1,0 +1,17 @@
+_id,Test #,Build #,Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Test Owner
+67d461b794b8fa33560deb5f,2,2024-03-18,UI,Bug: Adventure mode,Play adventure mode,Still does not atleast let you leave the mode to go back to main menu even though it does not work currently,Yes,Yes,Kevin Chaja
+67d461b794b8fa33560dee35,1,2024-02-27,Login/UI/Game/FindMatch  Login/UI/Game/training,"Bug: Whenever I try to find a match online or go to the training, the game does not load into the game, and is just stuck loading the match",I would get in a match,The game does not load into the match,Yes,Yes,Kevin Chaja
+67d461b794b8fa33560dee38,4,2024-02-27,Login/UI/Game/Friends,"Bug? Whenever I ask friend to battle, and they accept, the game loads in, but logs both of us out",Expecting to play with a friend,I couldn't get a game and it always logged both of us out,Yes,Yes,Kevin Chaja
+67d461b794b8fa33560ded9f,3,2024-03-08,Log in,log in loading,Expected to log in,It got stuck in loging in page,yes,yes,Kevin Chaja
+67d461b794b8fa33560def8d,2,2024-02-25,Login,Logged out,Expected to stay logged in after refreshing and completely logged out,Had to login again,Yes,Yes,Kevin Chaja
+67d461b794b8fa33560def52,5,2024-02-24,Game,"""set"" cards with ""flip"" effect, when activated during enemy turn, stops match","""flip"" effect plays, and enemy turn continues",game stops,yes,yes,Kevin Chaja
+67d461b794b8fa33560def50,3,2024-02-24,Game,inaccessible deck builder tutorial,deck builder tutorial is played,nothing,yes,yes,Kevin Chaja
+67d461b794b8fa33560def8c,1,2024-02-25,Main Page,A frozen screen,Expected to leave online players list back to main screen and it all froze,Frozen,Yes,Yes,Kevin Chaja
+67d461a441319a66aac7336b,2,2024-03-18,UI,Bug: Adventure mode,Play adventure mode,Still does not atleast let you leave the mode to go back to main menu even though it does not work currently,Yes,Yes,Kevin Chaja
+67d461a441319a66aac735ab,3,2024-03-08,Log in,log in loading,Expected to log in,It got stuck in loging in page,yes,yes,Kevin Chaja
+67d461a441319a66aac73641,1,2024-02-27,Login/UI/Game/FindMatch  Login/UI/Game/training,"Bug: Whenever I try to find a match online or go to the training, the game does not load into the game, and is just stuck loading the match",I would get in a match,The game does not load into the match,Yes,Yes,Kevin Chaja
+67d461a441319a66aac73644,4,2024-02-27,Login/UI/Game/Friends,"Bug? Whenever I ask friend to battle, and they accept, the game loads in, but logs both of us out",Expecting to play with a friend,I couldn't get a game and it always logged both of us out,Yes,Yes,Kevin Chaja
+67d461a441319a66aac7375c,3,2024-02-24,Game,inaccessible deck builder tutorial,deck builder tutorial is played,nothing,yes,yes,Kevin Chaja
+67d461a441319a66aac73798,1,2024-02-25,Main Page,A frozen screen,Expected to leave online players list back to main screen and it all froze,Frozen,Yes,Yes,Kevin Chaja
+67d461a441319a66aac7375e,5,2024-02-24,Game,"""set"" cards with ""flip"" effect, when activated during enemy turn, stops match","""flip"" effect plays, and enemy turn continues",game stops,yes,yes,Kevin Chaja
+67d461a441319a66aac73799,2,2024-02-25,Login,Logged out,Expected to stay logged in after refreshing and completely logged out,Had to login again,Yes,Yes,Kevin Chaja
