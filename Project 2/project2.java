@@ -50,7 +50,9 @@ else:
 	data = pd.concat([data,pd.DataFrame(SpringCollection.find(query))],ignore_index=True)
 	data = pd.concat([data,pd.DataFrame(FallCollection.find(query))],ignore_index=True)
 
-data = data.drop_duplicates();
+data = data.drop(data.columns[0],axis=1) # removing column 1
+data = data.drop_duplicates(); # removing duplicates
+
 data.to_csv('output.csv',index=False)
 
 print(data)
