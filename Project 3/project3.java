@@ -1,6 +1,8 @@
 import argparse
 import os
 import ffmpeg
+import json
+
 
 def main():
 	parser = argparse.ArgumentParser()
@@ -42,13 +44,34 @@ def update_file_name(path):
 	return name+ext
 
 def apply_watermark(source, new_name):
-	print("apply_watermark")
 	(
 		ffmpeg
 		.input(source)
 		.output(new_name,vf=f"drawtext=text='{new_name}':fontcolor=white:fontsize=200:x=10:y=10",**{'frames:v': 1, 'update': 1})
 		.run()
 	)
+
+def apply_thumbnail(source, new_name, dimensions):
+	(
+		ffmpeg
+		.input(source)
+		.output(new_name,vf=f"scale={dimensions}",**{'frames:v': 1,'update': 1})
+		.run()
+	)
+
+def apply_metadata(source, new_name):
+
+	output = ""
+
+	try:
+		probe = ffmpeg.probe(source)
+		output = json.dumps(probe,indent=2)
+	except ffmpeg.Error as e:
+		print('Error:'. e.stderr.decode())
+
+	with open("output.txt","w") as f:
+		f.write(output)
+
 
 
 if __name__ == "__main__":
